@@ -12,7 +12,7 @@ function removeToken() {
 }
 
 function createToken(userCredentials) {
-  return fetch('http://localhost:5002/api/login', {
+  return fetch('https://desolate-anchorage-87503.herokuapp.com/api/login', {
     method: 'POST',
     headers: {
       "Content-Type": "application/json",
