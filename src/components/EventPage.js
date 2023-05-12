@@ -5,7 +5,7 @@ import CreateCommentForm from "./CreateCommentForm"
 import { useEffect, useState } from "react"
 import { useParams, useNavigate } from "react-router-dom"
 
-import "animate.css"
+
 
 
 import { getPayloadFromToken, tokenExp, isOrganiser } from "../tokenLogic/tokenLogic"
